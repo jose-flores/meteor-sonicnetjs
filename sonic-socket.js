@@ -58,5 +58,6 @@ SonicSocket.prototype.scheduleToneAt = function(freq, startTime, duration) {
     osc.onended = this.onsend;
 
   osc.start(startTime);
+  osc.stop(startTime+duration);
 
 };

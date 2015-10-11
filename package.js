@@ -1,6 +1,6 @@
 Package.describe({
   name: 'joseflores:sonicnetjs',
-  version: '0.0.1',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: 'This package is a port of the sonicnetjs from https://github.com/borismus/sonicnet.js.',
   // URL to the Git repository containing the source code for this package.
