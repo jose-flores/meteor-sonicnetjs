@@ -15,6 +15,7 @@ SonicSocket = function (params) {
   this.charDuration = params.charDuration || 0.2;
   this.coder = params.coder || new SonicCoder(params);
   this.rampDuration = params.rampDuration || 0.001;
+  this.onsend = params.onsend;
 }
 
 
@@ -53,6 +54,9 @@ SonicSocket.prototype.scheduleToneAt = function(freq, startTime, duration) {
   osc.frequency.value = freq;
   osc.connect(gainNode);
 
-  osc.start(startTime);
-};
+  if (this.onsend && typeof this.onsend == "function")
+    osc.onended = this.onsend;
 
+  osc.start(startTime);
+
+};
