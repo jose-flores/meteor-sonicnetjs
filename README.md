@@ -17,3 +17,7 @@ So all credits to Boris Smus (https://github.com/borismus)
 
   There are plenty of options you can provide to both objects, please read the source code
 # Tests
+  Pending...
+#Authors
+  <a href="https://github.com/jcastro666">Juan Castro</a>
+  <a href="https://github.com/jose-flores">Jose Flores</a>
