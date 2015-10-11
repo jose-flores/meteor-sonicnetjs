@@ -19,5 +19,5 @@ So all credits to Boris Smus (https://github.com/borismus)
 # Tests
   Pending...
 #Authors
-  <a href="https://github.com/jcastro666">Juan Castro</a>
-  <a href="https://github.com/jose-flores">Jose Flores</a>
+  ** <a href="https://github.com/jcastro666">Juan Castro</a>
+  ** <a href="https://github.com/jose-flores">Jose Flores</a>
