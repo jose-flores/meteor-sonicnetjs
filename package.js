@@ -25,6 +25,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('joseflores:soniccoder');
-  api.addFiles('soniccoder-tests.js');
+  api.use('joseflores:sonicnetjs');
+  api.addFiles('sonicnetjs-tests.js');
 });
