@@ -7,13 +7,9 @@ So all credits to Boris Smus (https://github.com/borismus)
   Based on the code of <a href="https://github.com/borismus">Boris Smus</a> we are making this feature available to meteor coders.
 
 # Example
-  On one end load the server to listen the audio:
-  sserver = new SonicServer();
-
-  On the other end, create an instance of the emitter of the message:
-  var MESSAGE = '314159';
-  ssocket = new SonicSocket();
-  ssocket.send(MESSAGE);
+  To run this demo please follow the instructions below:
+  - Change directory to authenticator and run meteor --port 3005. Open this server on your preferred system with Google Chrome.
+  - In another terminal change directory to identityprovider and run meteor. Open this server in your android phone with Google chrome.
 
   There are plenty of options you can provide to both objects, please read the source code
 # Tests
