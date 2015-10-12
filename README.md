@@ -8,12 +8,14 @@ So all credits to Boris Smus (https://github.com/borismus)
 
 ## Example
   To run this demo please follow the instructions below:
-  * Change directory to authenticator and run meteor --port 3005. Open this server on your preferred system with Google Chrome.
-  * In another terminal change directory to identityprovider and run meteor. Open this server in your android phone with Google chrome.
+  1 Change directory to authenticator and run meteor --port 3005. Open this server on your preferred system with Google Chrome.
+  2 In another terminal change directory to identityprovider and run meteor. Open this server in your android phone with Google chrome.
 
   There are plenty of options you can provide to both objects, please read the source code
+
 ## Tests
   Pending...
-#A#uthors
+
+##Authors
   <a href="https://github.com/jcastro666">Juan Castro</a>
   <a href="https://github.com/jose-flores">Jose Flores</a>
